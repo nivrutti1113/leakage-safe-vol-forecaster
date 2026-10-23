@@ -1,0 +1,11 @@
+ticker: "^GSPC"
+source: "yfinance"
+start: "2010-01-01"
+horizons: [1, 5, 22]
+initial_train: 1000
+step: 21
+out: "results"
+seed: 0
+target_vol: 0.15
+max_leverage: 2.0
+transaction_costs_bps: [0, 2, 5, 10]
